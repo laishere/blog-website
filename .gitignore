@@ -1,0 +1,10 @@
+node_modules
+
+/.wrangler
+/build
+.env
+.dev.vars
+stats.html
+.vercel
+
+vite.config.ts.timestamp-*

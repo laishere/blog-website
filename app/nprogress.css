@@ -1,0 +1,7 @@
+#nprogress .bar {
+  @apply bg-gradient-to-r from-blue-500 to-indigo-600;
+}
+
+#nprogress .spinner {
+  @apply hidden;
+}

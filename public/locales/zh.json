@@ -1,0 +1,15 @@
+{
+  "home.title": "laishere的博客",
+  "home.description": "分享我在前端、后端、移动开发等领域的编程经验与心得。",
+  "Light": "浅色模式",
+  "Dark": "深色模式",
+  "System": "跟随系统",
+  "Oops, something went wrong": "喔噢，出了点问题",
+  "Page not found": "喔噢，我页面呢？",
+  "Go Home": "回到首页",
+  "Change color scheme": "切换颜色主题",
+  "Change language": "切换语言",
+  "Home": "首页",
+  "Render time": "渲染时间",
+  "On this page": "文章内容"
+}
