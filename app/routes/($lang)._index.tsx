@@ -83,10 +83,10 @@ export default function Home() {
                 <p className="text-gray-800 dark:text-gray-200">
                   {formatDate(new Date(post.publishDate))}
                 </p>
-                <h2 className="text-2xl font-bold leading-relaxed text-gray-900 dark:text-gray-100">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
                   {post.title}
                 </h2>
-                <p className="text-gray-800 dark:text-gray-200">
+                <p className="text-gray-800 dark:text-gray-200 mt-1">
                   {post.description}
                 </p>
               </div>
