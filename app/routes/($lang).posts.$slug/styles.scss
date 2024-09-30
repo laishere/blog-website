@@ -122,7 +122,8 @@
   }
 
   :not(pre) > code {
-    @apply bg-violet-300 bg-opacity-50 dark:bg-violet-800 text-sm p-1 rounded;
+    @apply bg-violet-300 bg-opacity-50 dark:bg-violet-800 py-[0.2em] px-[0.3em] rounded;
+    font-size: 0.9em;
   }
 
   pre {
@@ -196,7 +197,8 @@
 }
 
 .toc code {
-  @apply text-gray-800 dark:text-gray-200 bg-violet-300 bg-opacity-50 dark:bg-violet-800 text-sm p-1 rounded;
+  @apply text-gray-800 dark:text-gray-200 bg-violet-300 bg-opacity-50 dark:bg-violet-800 py-[0.2em] px-[0.3em] rounded;
+  font-size: 0.9em;
 }
 
 html.dark .shiki {
