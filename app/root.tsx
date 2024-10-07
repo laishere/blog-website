@@ -37,6 +37,7 @@ import "./tailwind.css";
 
 import { isbot } from "isbot";
 import ErrorView from "~/lib/components/error";
+import { usePVAnalytics } from "./lib/firebase";
 import { setRequestContext } from "./lib/request";
 
 export const links: LinksFunction = () => [
@@ -173,6 +174,7 @@ export function ErrorBoundary() {
 }
 
 export default function App() {
+  usePVAnalytics();
   return (
     <ContentLayout>
       <SpeedInsights />

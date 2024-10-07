@@ -8,3 +8,4 @@ stats.html
 .vercel
 
 vite.config.ts.timestamp-*
+**/secrets/*
