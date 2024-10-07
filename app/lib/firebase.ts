@@ -1,10 +1,10 @@
-import { initializeApp } from "firebase/app";
-import { getAnalytics, logEvent } from "firebase/analytics";
 import { useLocation } from "@remix-run/react";
+import { getAnalytics, logEvent } from "firebase/analytics";
+import { initializeApp } from "firebase/app";
 import { useEffect } from "react";
+import { firebaseConfig } from "~/secrets/firebase";
 
-const USE_FIREBASE =
-  !import.meta.env.DEV && import.meta.env.VITE_USE_FIREBASE === "true";
+const USE_FIREBASE = !import.meta.env.DEV;
 
 let app: ReturnType<typeof initializeApp> | null = null;
 
@@ -12,7 +12,6 @@ async function requireFirebase() {
   if (app) {
     return app;
   }
-  const { firebaseConfig } = await import("~/secrets/firebase");
   app = initializeApp(firebaseConfig);
   return app;
 }
